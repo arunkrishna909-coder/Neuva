@@ -116,17 +116,56 @@
     object-position: center;      /* Keeps the subject of your photos centered */
 }
 
-/* Fix for text alignment on standardized height */
+/* Optimized Neuva Blue Overlay */
 .carousel-caption {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, 0.7) !important; /* This is your Blue Effect - 0.5 makes it richer */
+    background: rgba(9, 30, 62, 0.75) !important; /* Increased to 0.75 for better text contrast */
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 </style>
 
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Neuva",
+  "image": "https://neuva.in/logo.png",
+  "@id": "https://neuva.in",
+  "url": "https://neuva.in",
+  "telephone": "+917010686401",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "6/121 Thiruvalluvar colony, Nerkundram",
+    "addressLocality": "Chennai",
+    "postalCode": "600107",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 13.0694,
+    "longitude": 80.2036
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:00",
+    "closes": "19:00"
+  }
+}
+	</script>
 </head>
 
 <body>
@@ -179,7 +218,7 @@
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Chennai's Premier Gifting Partner</h5>
-                    <h1 class="display-4 text-white mb-md-4 animated zoomIn">Sophistication in Every Box</h1>
+                    <h2 class="display-4 text-white mb-md-4 animated zoomIn">Sophistication in Every Box</h2>
                 </div>
             </div>
         </div>
@@ -188,7 +227,7 @@
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Elevating Professional Bonds</h5>
-                    <h1 class="display-4 text-white mb-md-4 animated zoomIn">Bespoke Employee Engagement & Milestone Rewards</h1>
+                    <h1 class="display-4 text-white mb-md-4 animated zoomIn">Premium Corporate Gifting & Custom Recognition</h1>
                 </div>
             </div>
         </div>
@@ -383,7 +422,7 @@
                         </div>
                         <h4 class="mb-3">Employee Welcome Kit</h4>
                         <p class="m-0">Welcome your new talent with kits that spark immediate belonging and professional pride.</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="#quote-section" title="Inquire about Employee Welcome Kits">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
